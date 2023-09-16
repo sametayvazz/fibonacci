@@ -17,11 +17,11 @@ public class Soru4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //  a şıkkı
-      int sayi,indis;
+      
+       int sayi,indis;
        Scanner deger=new Scanner(System.in);
         
-        //  b şıkkı
+    
         System.out.print("Kaç Adet Fibonacci Sayısı Görmek İstersiniz: ");
         sayi=deger.nextInt();
         int [] fib=degerSiralama(sayi);
@@ -34,7 +34,7 @@ public class Soru4 {
         }
                 
     }
-    public static int fibonacci (int indis) //a şıkkı
+    public static int fibonacci (int indis) 
     {        
         if (indis<1) {
             return 0;
@@ -50,7 +50,7 @@ public class Soru4 {
      
         return birinci;
     }
-    public static int[] degerSiralama(int deger) //b şıkkı
+    public static int[] degerSiralama(int deger) 
     {    
        int[] dizi=new int [deger];
         for (int i = 0; i < dizi.length; i++) {
